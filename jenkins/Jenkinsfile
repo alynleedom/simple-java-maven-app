@@ -25,6 +25,7 @@ pipeline {
             steps {
                 sh './jenkins/scripts/deliver.sh'
                 // adding some comments to test GitHub/Jira integration
+                // adding more comments...ugh
             }
         }
     }
